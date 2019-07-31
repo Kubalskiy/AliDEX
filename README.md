@@ -19,7 +19,7 @@ The central marketplace is managed by a group of administrators. Admins allow st
 User Stories:
 An administrator opens the web app. The web app reads the address and identifies that the user is an admin, showing them admin only functions, such as managing store owners. An admin can grant shop owner rights for shoppers that has requested shop owner rights. Once shop owner logs into the app, they have access to the store owner functions.
  
-An approved store owner logs into the app. The web app recognizes their address and identifies them as a store owner. They are shown the store owner functions. They can create a new storefront that will be displayed on the marketplace. They can also see the storefronts that they have already created. They can click on a storefront to manage it. They can add/remove products to the storefront or change any of the products’ prices. They can also withdraw any funds that the store has collected from sales.
+An approved store owner logins to the Dapp. The web app recognizes their address and identifies them as a store owner. They are shown the store owner functions. They can create a new storefront that will be displayed on the marketplace. They can also see the storefronts that they have already created. They can click on a storefront to manage it. They can add/remove products to the storefront or change any of the products’ prices. They can also withdraw any funds that the store has collected from sales.
  
 A shopper logs into the app. The web app does not recognize their address so they are shown the generic shopper application. From the main page they can browse all of the storefronts that have been created in the marketplace. Clicking on a storefront will take them to a product page. They can see a list of products offered by the store, including their price and quantity. Shoppers can purchase a product, which will debit their account and send it to the store. The quantity of the item in the store’s inventory will be reduced by the appropriate amount.
 
@@ -70,9 +70,9 @@ The quantity of the item in the store’s inventory will be reduced by the appro
 
 ## How to set up project:
 
-1. First clone repository to your machine `git clone https://github.com/Kubalskiy/DEX-Market-platform-Kubalskiy`
+1. First clone repository to your machine `git clone https://github.com/Kubalskiy/alidex`
 1. Start ganache-cli by executing: `ganache-cli`
-1. Navigate to cloned `decentralized-marketplace` folder
+1. Navigate to cloned `alidex` folder
 1. (Optional) Make sure that project compiles by executing: `truffle compile`
 1. (Optional) Make sure that project tests are executed successfully: `truffle test`
 1. Migrate contract to development environment by executing: `truffle migrate`
