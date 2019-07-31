@@ -16,7 +16,7 @@ There are a list of stores on a central marketplace where shoppers can purchase 
  
 The central marketplace is managed by a group of administrators. Admins allow store owners to add stores to the marketplace. Store owners can manage their store’s inventory and funds. Shoppers can visit stores and purchase goods that are in stock using cryptocurrency.
  
-User Stories:
+#### User Stories:
 An administrator opens the web app. The web app reads the address and identifies that the user is an admin, showing them admin only functions, such as managing store owners. An admin can grant shop owner rights for shoppers that has requested shop owner rights. Once shop owner logs into the app, they have access to the store owner functions.
  
 An approved store owner logs into the app. The web app recognizes their address and identifies them as a store owner. They are shown the store owner functions. They can create a new storefront that will be displayed on the marketplace. They can also see the storefronts that they have already created. They can click on a storefront to manage it. They can add/remove products to the storefront or change any of the products’ prices. They can also withdraw any funds that the store has collected from sales.
@@ -29,7 +29,7 @@ There are a list of stores on a central marketplace where shoppers can purchase 
 
 The central marketplace is managed by a group of administrators. Admins allow store owners to add stores to the marketplace. Store owners can manage their store’s inventory and funds. Shoppers can visit stores and purchase goods that are in stock using cryptocurrency.
 
-###Owner Features
+### Owner Features
 A market owner opens the web app.
 The web app reads the address and identifies that the user is an owner, showing them owner only functions.
 Market owner can add new admins.
