@@ -70,7 +70,7 @@ The quantity of the item in the store’s inventory will be reduced by the appro
 
 ## How to set up project:
 
-1. First clone repository to your machine `git clone https://github.com/Kubalskiy/DEX-Market-platform-Kubalskiy`
+1. First clone repository to your machine `git clone https://github.com/Kubalskiy/AliDEX`
 1. Start ganache-cli by executing: `ganache-cli`
 1. Navigate to cloned `decentralized-marketplace` folder
 1. (Optional) Make sure that project compiles by executing: `truffle compile`
