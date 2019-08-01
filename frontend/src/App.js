@@ -95,7 +95,7 @@ class App extends Component {
                         Learn more: https://metamask.io/
                     </Typography>
                     <Typography component="p">
-                        - Select Rinkeby network if you want to interact with public contract.
+                        - Select Ropsten network if you want to interact with public contract.
                     </Typography>
                     <Typography component="p">
                         - If you're trying to set up project locally, start ganache-cli and connect

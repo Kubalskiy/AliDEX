@@ -58,7 +58,7 @@ The quantity of the item in the store’s inventory will be reduced by the appro
 
 ## Requirements for accessing hosted project
 1. Dapp browser or Metamask extension: https://metamask.io
-1. Choose Rinkeby testnet from browser/metamask
+1. Choose Ropsten testnet from browser/metamask
 1. Go to https://alidex.herokuapp.com/
 
 ## Requirements to run project locally
