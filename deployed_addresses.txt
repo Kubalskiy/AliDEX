@@ -1,0 +1,140 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        6103234
+   > block timestamp:     1564638856
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.715586392
+   > gas used:            173634
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000347268 ETH
+
+   -------------------------------------
+   > Total cost:         0.000347268 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StringUtil'
+   ----------------------
+   > block number:        6103236
+   > block timestamp:     1564638860
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.715383902
+   > gas used:            74306
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000148612 ETH
+
+
+   Deploying 'Alidex'
+   ------------------
+   > block number:        6103237
+   > block timestamp:     1564638866
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.70678866
+   > gas used:            4297621
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008595242 ETH
+
+   -------------------------------------
+   > Total cost:         0.008743854 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.009091122 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xca8b2227ef48ab5e9d051a961300fceee4a21a038771973689ac0a0c813f3253
+   > Blocks: 1            Seconds: 20
+   > contract address:    0xa4c814FCC608084cB3E429553F9C7048A0bb6e6e
+   > block number:        6103241
+   > block timestamp:     1564638879
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.71216098
+   > gas used:            188634
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00377268 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00377268 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StringUtil'
+   ----------------------
+   > transaction hash:    0xc16741776f4a3d9b5ad828f290aad03239a4a98adaaf99cea66e6c016af5e7eb
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x6A2B23c767Bb41e4A5307Bdc4B3d9bfc310F71a2
+   > block number:        6103245
+   > block timestamp:     1564638925
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.70983608
+   > gas used:            74306
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00148612 ETH
+
+
+   Deploying 'Alidex'
+   ------------------
+   > transaction hash:    0x8fb31749055b42d40559dee8303500f821f5fb32cf4cf376488e01f59c2cf6e2
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x8b728102528cC0B45ECDb3A9eAc74772EEc400b7
+   > block number:        6103247
+   > block timestamp:     1564638939
+   > account:             0xb86c6f2695246001aCd87C4a8b2eFb06d26e6451
+   > balance:             9.62178366
+   > gas used:            4402621
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08805242 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.08953854 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09331122 ETH
