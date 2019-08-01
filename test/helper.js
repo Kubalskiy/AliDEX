@@ -2,7 +2,7 @@
  * Helper methods for tests to get idea how we can convert and iterate data
  * in the UI side.
  */
-export var TestsHelper = {
+module.exports = {
     convertToStringArray(bytes) {
         let singleString = this.convertToSingleString(bytes);
         return this.splitStringsToArray(singleString);

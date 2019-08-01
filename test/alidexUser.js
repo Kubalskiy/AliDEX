@@ -1,4 +1,4 @@
-import {TestsHelper} from './helper';
+const TestsHelper = require('./helper');
 
 const Alidex = artifacts.require("./Alidex.sol");
 
